@@ -1,0 +1,20 @@
+.about__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  min-height: 720px;
+  margin: auto 0;
+}
+
+.about__content h2 {
+  text-align: center;
+}
+
+.about__content p {
+  text-align: justify;
+}
+
+.about__content .first__paragraph {
+  text-align: center;
+}

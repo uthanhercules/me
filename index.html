@@ -19,7 +19,7 @@
         <nav class="main-header__nav">
           <a class="active" href="./index.html">Início</a>
           <a href="#">Stories</a>
-          <a href="#">Sobre mim</a>
+          <a href="./sobre.html">Sobre Mim</a>
           <a href="./contato.html">Contato</a>
         </nav>
       </header>
@@ -52,4 +52,15 @@
       <footer class="main-footer"></footer>
     </main>
   </body>
+
+  <script>
+    const footer = document.querySelector(".main-footer");
+    const footerContent = document.createElement("span");
+    const footerRights = document.createElement("span");
+
+    footerContent.innerHTML = 'Feito com <span class="heart">❤</span>';
+    footerRights.innerHTML = `Todos os direitos reservados ao autor &copy; ${new Date().getFullYear()}`;
+    footer.appendChild(footerContent);
+    footer.appendChild(footerRights);
+  </script>
 </html>

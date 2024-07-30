@@ -96,9 +96,23 @@ li a {
   color: var(--red);
 }
 
+.heart {
+  color: var(--red);
+}
+
+/* Fixed footer */
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+}
+
 /* Mobile */
 @media (max-width: 980px) {
   .main-header {
+    height: 96px;
     flex-direction: column;
   }
 
