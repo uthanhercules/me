@@ -30,7 +30,7 @@ li {
 /* Mobile */
 @media (max-width: 980px) {
   .contact__content {
-    margin-top: 64px;
+    margin-top: 32px;
     height: fit-content;
   }
 }
