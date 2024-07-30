@@ -1,0 +1,11 @@
+.stories__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  min-height: 720px;
+}
+
+.index__content h3 {
+  text-align: center;
+}
