@@ -1,0 +1,25 @@
+.index__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  height: 720px;
+  margin: auto 0;
+}
+
+.index__content h2 {
+  text-align: center;
+}
+
+.index__content p {
+  text-align: justify;
+}
+
+/* Mobile */
+@media (max-width: 980px) {
+  .index__content {
+    margin-top: 32px;
+    height: fit-content;
+  }
+}
